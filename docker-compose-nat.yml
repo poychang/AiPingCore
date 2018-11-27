@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  aiping:
+    image: ktcdockregistry.azurecr.io/base/tool/aiping:latest
+
+networks:
+  default:
+    external:
+      name: nat
