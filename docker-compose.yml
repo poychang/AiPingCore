@@ -4,9 +4,6 @@ services:
 
   AiPingCore:
     image: aipingcore:latest
-    environment:
-      - APPINSIGHTS_INSTRUMENTATIONKEY=d9781523-e0ba-4496-adb1-d080807ecc07
-      - ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.ApplicationInsights.Profiler.AspNetCore
 
 # networks:
 #   default:
